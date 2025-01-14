@@ -626,6 +626,7 @@ html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  border: none;
 }
 .mobile-nav__list {
   -webkit-box-orient: vertical;
