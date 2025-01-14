@@ -653,6 +653,7 @@ html {
   -ms-flex-pack: center;
   justify-content: center;
   display: none;
+  border: none;
 }
 .nav-icon,
 .nav-icon::after,
