@@ -611,6 +611,7 @@ html {
   background-color: #353535;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  
 }
 .mobile-nav--open {
   top: 0;
@@ -627,6 +628,7 @@ html {
   -ms-flex-align: center;
   align-items: center;
   border: none;
+  padding: 0px;
 }
 .mobile-nav__list {
   -webkit-box-orient: vertical;
@@ -635,6 +637,7 @@ html {
   flex-direction: column;
   row-gap: 20px;
   font-size: 28px;
+  padding: 0px;
 }
 .mobile-nav__list .active {
   opacity: 0.5;
@@ -653,6 +656,7 @@ html {
   -ms-flex-pack: center;
   justify-content: center;
   display: none;
+  border: none;
 }
 .nav-icon,
 .nav-icon::after,
@@ -1020,6 +1024,7 @@ html {
   }
   .mobile-nav-btn {
     display: block;
+    border: none;
   }
   .Portfolio__cards {
     gap: 40px;
